@@ -24,7 +24,7 @@ with open("list_test.txt") as e:
         j = 0
         for line in e:
             j=j+1
-            if(j>250):
+            if(j>110):
                 break
             else:
                 e1.write(line) 
