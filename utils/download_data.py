@@ -63,7 +63,7 @@ def main():
 
     if args.data_type in ['train', 'validation']:
         destination_directory = os.path.join(DATA_DIRECTORY, args.data_type)
-        list_file = 'train.txt' if args.data_type == 'train' else 'test.txt'
+        list_file = 'train1.txt' if args.data_type == 'train' else 'test.txt'
     else:
         parser.error('data_type argument has not a valid value.')
 
